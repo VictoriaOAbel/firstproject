@@ -1,0 +1,41 @@
+/* Selectors */
+/* All Selectors */
+*{
+    background-color: black;
+    color: white;
+}
+/* Element/Tag Selector */
+p{
+    background-color: red;
+    color: white;
+}
+/* Class and ID Selector */
+.s1{
+    background-color: teal;
+    color: white;
+}
+#s2{
+    background-color: violet;
+    color: white;
+}
+/* advanced selectors. */
+/* descendant selectors */
+.des li{
+    background-color: tomato;
+    color: white;
+    list-style: none;
+}
+/* child selector */
+.chi > li{
+    background-color: bisque;
+    color: white;
+    list-style: none;
+}
+/* grouping selector */
+h3,h4,h5{
+    background-color: coral;
+    color: white;
+}
+h3{
+    font-size: 70px;
+}

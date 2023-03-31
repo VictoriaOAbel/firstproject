@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        list-style: none;
+    }
+    nav{
+        background-color: teal;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    ul{
+        display: flex;
+        gap: 20px;
+    }
+    ul li{
+        /* display: inline-block;
+        margin-left: 20px; */
+        text-transform: capitalize;
+    }
+    ul li a{
+        color: white;
+    }
+  /*
+    .active{
+        background-color: white;
+        border-radius: 7px;
+        padding: 7px;
+        color: slateblue;
+    }
+    */
+    ul.active{
+        background-color: white;
+        border-radius: 7px;
+        padding: 7px;
+        color: teal;
+    }
+    .nav{
+        padding: 10px 20px;
+        background-color: slateblue;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .links.active{
+        background-color: white;
+        border-radius: 7px;
+        padding: 7px;
+        color: slateblue;
+    }
+    .links{
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        align-items: center;
+    }
+</style>
+<body>
+    <nav>
+        <img src="img/Anonymous-Wallpapers-2.jpg" alt="" width="60">
+        <ul >
+            <li ><a href="" class="active">home</a></li>
+            <li><a href="">about</a> </li>
+            <li ><a href="">blog</a> </li>
+        </ul>
+    </nav>
+    <div class="nav">
+        <img src="img/Anonymous-Wallpapers-2.jpg" alt="" width="60">
+        <div class="links">
+            <a href="" class="active">home</a>
+            <a href="">about</a>
+            <a href="">blog</a>
+        </div>
+    </div>
+</body>
+</html>
